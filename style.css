@@ -9,11 +9,8 @@ div{
     margin: auto;
     background-color: green;
     width: 400px;
-    height: 620px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    height: 100%px;
     margin-top: 20px;
-    z-index: 1;
 }
 
 h1{
@@ -28,8 +25,9 @@ header{
     background-color: white;
     height: 150px;
     width: 400px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav{
