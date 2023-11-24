@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(114, 114, 172);
+    background-color: white;
 }
 
 div{
@@ -22,7 +22,7 @@ h1{
 }
 
 header{
-    background-color: white;
+    background-color: whitesmoke;
     height: 150px;
     width: 400px;
     position: sticky;
@@ -53,7 +53,7 @@ img{
 
 button{
     border: none;
-    background-color: white;
+    background-color: whitesmoke;
     cursor: pointer;
 }
 
