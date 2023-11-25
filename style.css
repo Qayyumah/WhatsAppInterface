@@ -6,7 +6,7 @@ body{
 }
 .container{
     background-color: whitesmoke;
-    width: 51.5%;
+    width: 400px;
     height: 100%;
     margin: auto;
 }
@@ -173,7 +173,6 @@ h2:hover{
 
 #chat-container{
     display: none;
-    
 }
 
 .chat-text{
@@ -195,6 +194,7 @@ img{
     top: 0;
     margin-top: 20px;
 }
+
 .chat-icon{
     display: flex;
     justify-content: space-evenly;
@@ -203,6 +203,7 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 30px;
     margin-top: 50%;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -211,8 +212,10 @@ img{
 input{
     width: 100%;
     height: 35px;
+    border-radius: 30px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 17px;
+    padding-left: 10px;
 }
 .inbox{
     display: flex;
@@ -224,10 +227,16 @@ input{
     margin-right: 10px;
 }
 h3{
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
 }
 
+h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
 
 @media (min-width:900px){
     .container{
