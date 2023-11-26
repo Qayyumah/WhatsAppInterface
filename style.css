@@ -127,6 +127,11 @@ h2:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
+}
+
+.main:hover{
+    background-color: aqua;
 }
 
 .flex{
