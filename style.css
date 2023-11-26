@@ -296,6 +296,10 @@ b{
 aside{
     display: none;
 }
+a{
+    text-decoration-line: none;
+    color: green;
+}
 
 @media (min-width:900px){
     .container{
