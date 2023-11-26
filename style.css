@@ -128,6 +128,7 @@ h2:hover{
     flex-direction: row;
     align-items: center;
     cursor: pointer;
+    transition: 1s;
 }
 
 .main:hover{
@@ -266,6 +267,90 @@ h5{
     color: red;
 }
 
+#last{
+    display: none;
+}
+
+.feet{
+    width: 400px;
+    cursor: pointer;
+}
+
+.feet:hover{
+    background-color: aquamarine;
+}
+
+#leap{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(144, 227, 238);
+    border-radius: 30%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#pep{
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    padding-top: 8px;
+}
+
+.com{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+#like{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(61, 224, 75);
+    border-radius: 30%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.vic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ay{
+    color: darkgreen;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hay{
+    height: 60px;
+    width: 400px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hay:hover{
+    background-color: aquamarine;
+}
+
+.meek{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+    margin-left: 70px;
+    margin-top: -45px;
+}
+
+hr{
+    width: 380px;
+    margin-top: 6px;
+}
+
 main{
     cursor: pointer;
     width: 400px;
@@ -286,7 +371,7 @@ main img{
 
 .good{
     margin-left: 80px;
-    margin-top: -50px;
+    margin-top: -45px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -298,7 +383,7 @@ b{
     color: red;
 }
 
-aside{
+#meet{
     display: none;
 }
 a{
